@@ -1,0 +1,46 @@
+{
+    "kapenguria-six": [
+        {
+            "name": "Kung'u Karumba",
+            "image": "",
+            "description": "Kung'u Karumba was a Kenyan nationalist and freedom-fighter. He was a member of the Kapenguria Six, along with Bildad Kaggia, Jomo Kenyatta, Fred Kubai, Paul Ngei, and Achieng Oneko.",
+            "dob": 1902,
+            "dod": 1978
+        },
+        {
+            "name": "Achieng' Oneko",
+            "image": "",
+            "description": "Ramogi Achieng Oneko was a Kenyan freedom fighter and a politician. In Kenya, he is considered as a national hero. He was born in Tieng'a village in Uyoma sub-location in Bondo District in 1920 and educated at Maseno School.",
+            "dob": 1920,
+            "dod": 2007
+        },
+        {
+            "name": "Jommo Kenyatta",
+            "image": "",
+            "description": "Kenyatta was born as Kamau, son of Ngengi, at Ichaweri, southwest of Mount Kenya in the East African highlands. His father was a leader of a small Kikuyu agricultural settlement. About age 10 Kamau became seriously ill with jigger infections in his feet and one leg, and he underwent successful surgery at a newly established Church of Scotland mission.",
+            "dob": 1897,
+            "dod": 1978
+        },
+        {
+            "name": "Bildad Kaggia",
+            "image": "",
+            "description": "Bildad Mwaganu Kaggia was a Kenyan nationalist, activist, and politician. Kaggia was a member of the Mau Mau Central Committee. After independence he became a Member of Parliament. He established himself as a militant, fiery nationalist who wanted to serve the poor and landless people",
+            "dob": 1921,
+            "dod": 2005
+        },
+        {
+            "name": "Fred Kubai",
+            "image": "",
+            "description": "Fred Kubai was one of the Kapenguria Six, members of the Kenya African Union arrested in 1952, tried and imprisoned. He was a Kikuyu, and a leader of the Kenya Transport Workers Union and the East African Trade Union Congress. Kubai organized attacks against the European government in Nairobi.",
+            "dob": 1917,
+            "dod": 1996
+        },
+        {
+            "name": "Paul Ngei",
+            "image": "",
+            "description": "The Honourable Paul Joseph Ngei was a Kenyan politician who was imprisoned for his role in the anti-colonial movement, but who went on to hold several government ministerial positions after Kenya became independent.",
+            "dob": 1923,
+            "dod": 2004
+        }
+    ]
+}

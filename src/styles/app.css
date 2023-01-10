@@ -1,0 +1,19 @@
+#app-header {
+    position: relative;
+
+    height: 300px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-image: url('../../public/images/kapenguria-six.jpg');
+}
+
+#app-title {
+    position: absolute;
+    left: 30%;
+    top: 60%;
+
+    color: red;
+}
