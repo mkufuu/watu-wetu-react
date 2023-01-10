@@ -1,4 +1,27 @@
 {
+    "culture": [
+        {
+            "name": "Kenyatta Hill",
+            "image": "",
+            "description": "",
+            "dob": "",
+            "dod": ""
+        },
+        {
+            "name": "Albert Walker",
+            "image": "",
+            "description": "",
+            "dob": "",
+            "dod": ""
+        },
+        {
+            "name": "Telford Nelson",
+            "image": "",
+            "description": "",
+            "dob": "",
+            "dod": ""
+        }
+    ],
     "kapenguria-six": [
         {
             "name": "Kung'u Karumba",
