@@ -14,9 +14,8 @@ const App = () => {
                 <People endpoint="kapenguria-six" />
                 <People endpoint="Micasa"/>
                 <People endpoint="culture" />
-
+                <People endpoint="sautisol" />
                 <People endpoint="h_art-the-band" />
-
             </div>
         </main>
     </div>
