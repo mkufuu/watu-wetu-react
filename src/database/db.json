@@ -65,5 +65,37 @@
             "dob": 1923,
             "dod": 2004
         }
+    ],
+    "camp mullah":[
+        {
+            "name": "Kus Ma",
+            "image":"../public/images/kus ma.jpg",
+            "description":"Kus Ma (born Marcus Kibukosya; formerly K'Cous) Record producer, songwriter, rapper.",
+            "dob":1991
+        },
+        {
+            "name": "Shappaman",
+            "image":"../public/images/Shappaman+1.jpg",
+            "description":"Shappaman is an all rounded Nairobi born and based artist with core foundations in Hip hop, R&B. The rapper / singer is a former member of Kenyan super group Camp Mulla & as a solo act aims to surpass the past achievements of the group.",
+            "dob":1998
+        },
+        {
+            "name": "Miss Karun",
+            "image":"../public/images/karun.png",
+            "description":"Karungari Mungai, professionally known as Karun (formerly Miss Karun), is an R&B singer-songwriter from Kenya and former member of the Camp Mullah Band",
+            "dob":1994
+        },
+        {
+            "name": "Taio Tripper",
+            "image":"../public/images/taio.jpg",
+            "description":" Known as a deejay, songwriter and sound engineer, Taio now adds show host to the long list of roles he currently holds. Taking to Instagram to share his exciting news, Tripper revealed his latest project dubbed “Prototype.” The show is set to revolve around conversations on growth, failures, and success with various upcoming artists.",
+            "dob":""
+        },
+        {
+            "name": "Mykie Tooni",
+            "image":"../public/images/mykie.jpg",
+            "description":"Michael Mutooni popularly known as Mykie Tuchi was the former manager of hip hop group Camp Mulla which took the Kenyan music by storm. They were the cool kids who brought a new and fresh twist to Kenyan hiphop. The group was responsible for hits like Party don't stop, Fresh all day and Feel no pain among others.",
+            "dob":""
+        }
     ]
 }
