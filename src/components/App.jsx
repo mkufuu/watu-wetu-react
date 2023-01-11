@@ -13,7 +13,7 @@ const App = () => {
             <div className="row">
                 <People endpoint="kapenguria-six" />
 
-                <People endpoint="culture" />
+                <People endpoint="Mi-Casa" />
             </div>
         </main>
     </div>
