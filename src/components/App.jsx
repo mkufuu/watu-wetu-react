@@ -6,14 +6,16 @@ const App = () => {
 
     return <div className="mt-2 container-fluid">
         <header id="app-header" className="rounded">
-            <h1 id="app-title">Watu Wetu</h1>
+            <h1 id="app-title"></h1>
         </header>
 
         <main id="app-main">
             <div className="row">
-                <People endpoint="kapenguria-six" />
+                {/* <People endpoint="kapenguria-six" /> */}
 
-                <People endpoint="culture" />
+                {/* <People endpoint="culture" /> */}
+
+                <People endpoint="wakadinali" />
             </div>
         </main>
     </div>

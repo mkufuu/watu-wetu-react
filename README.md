@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# ZOZANATION
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This simple React app dispays the information of a well-known Kenyan hiphop/drill crew called Wakadinali.
+It displays the name, image, a breif description etc.
 
-## Available Scripts
+## Prequisites
 
-In the project directory, you can run:
+Clone the project to your local directory .
+Install and run the necessary npm commands :
+    -npm install
+    -npm start
+Then enable json-server :
+    -json-server --w ./src/database/db.json
 
-### `npm start`
+### Deliverables
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Once the necessary installations are successful, a new tab will open on your browser and will display Wakadinali's information.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Behind The Scenes
+I updated the db.json file and added the necessary information 
+    {
+    "wakadinali": [
+        {
+            "name": "Domani Munga",
+            "image": "https://biggestkaka.co.ke/wp-content/uploads/2021/09/DOmani-Munga-od0gja5h.jpg",
+            "description": "Domani Munga, real name David Munga Ramadhan. His nicknames are Wuzu, Dochman Mwizi, and Doche. Domani is a lyricist and has mastered the game ever since he came out. Fans applaud him for his catchy hooks and choruses, which are relatable in modern society. Indeed, Wakadinali is not Wakadinali without Domani Munga.",
+            "dob": "1995",
+            "dod": "Alive"
+        },
+        {
+            "name": "Sewer Sydaa",
+            "image": "https://biggestkaka.co.ke/wp-content/uploads/2021/11/Sewersydaa-agyxNma0.jpg",
+            "description": "Sewersydaa, also known as Man a Driller(real name Salim Ali Tangut), started off as an editor and DOP before joining Wakadinali as an artist. He is best known for his edits under the name Slim Visuals. He directed and edited several Wakadinali music videos before Wakadinali even became famous. One of his most notable projects is Wakadinali’s “Morio Anzenza” music video, featuring Dyana Cods.",
+            "dob": "1995",
+            "dod": "Alive"
+        },
+        {
+            "name": "Scar Mkadinai",
+            "image": "https://biggestkaka.co.ke/wp-content/uploads/2022/01/Scar-Mkadinali-RbeVVolm.jpg",
+            "description": "Scar Mkadinali, real name Churchill Mandela, is a member of Wakadinali, together with Domani Munga, they co-founded the group name Wakadinali and their record label, Zoza Nation, also known as Rong Rende. Scar Mkadinali is best known for his 2019 solo project “Kovu,” which is one of the most remixed Kenyan songs of all time. The “Kovu” instrumental also helped Mbogi Genje establish their musical career with their song “Kidungi“.",
+            "dob": "1995",
+            "dod": "Alive"
+        }
+    ],
+    }
 
-### `npm test`
+Then in the App.jsx file, I commented out kapenguria-six and culture endpoints and added the wakadinali end point.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Author
+marcus
