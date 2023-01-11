@@ -89,4 +89,25 @@
             "dod": 2004
         }
     ]
+    "Micasa":[
+        {
+            "name":"Dr,Duda",
+            "image":"",
+            "description":"Dr. Duda is responsible for the music production for the band. He was part of a gospel band at his childhood church since the age of 8, played keyboards. He got his nickname from a FL Studio plug-in called Duda. He still uses DAW software, amongst others, including Cubase, Sony Acid, Reason, and Ableton Live.",
+            "dob":1981
+        },
+        {
+            "name":"J'Something",
+            "image":"",
+            "description":"J'Something is originally from Portugal. His real name is Joao da Fonseca. He moved to Port Alfred in the Eastern Cape, South Africa when he was seven years old. He was raised by his mother Maria after his parents separated. Joao completed his bachelor's degree in marketing at Stellenbosch University before moving to Johannesburg, where he was a studio manager at the SoulCandi Studios.",
+            "dob":1988
+        },
+        {
+            "name":"Mo-T",
+            "image":"",
+            "description":"Mo-T's father, Kgasoane Banza, was part of the South African Afropop band Mango Groove.",
+            "dob":1988
+        }
+
+    ]
 }
