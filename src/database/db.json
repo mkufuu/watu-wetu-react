@@ -65,5 +65,36 @@
             "dob": 1923,
             "dod": 2004
         }
+    ],
+    "sauti-sol": [
+        {
+            "name": "Bien Aime Baraza",
+            "image": "https://anmg-production.anmg.xyz/kelebrity_BvsfGsJYf5u9eGs7scq9Gqyn",
+            "description": "Bien Aime Baraza is a vocalist, songwriter, guitarist and a band member of soul group Sauti Sol. Many of Bien's Songs became very popular and trendy on social media in line with a great number of streaming and downloads on Boomplay. He was born on 28th Dec 1987.",
+            "dob": 1987,
+            "dod": "Alive"
+        },
+        {
+            "name": "Willis Chimano",
+            "image": "https://cdn.standardmedia.co.ke/sdemedia/sdeimages/wednesday/zqjxo8svmbkbet5f460de9a6fde.jpg",
+            "description": "Willis Austin Chimano has come out as gay in a move that is being praised as a boost to Kenya's LGBTQ+ community. Willis, who is more commonly known as Chimano, is one of the stars in Sauti Sol, a vastly popular and famous Kenyan band. ",
+            "dob": 1987,
+            "dod": "Alive"
+        },
+        {
+            "name": "Savara Mudigi",
+            "image": "https://anmg-production.anmg.xyz/kelebrity_8nWWddad9MjXCEniQVF5F7hY",
+            "description": "Pop singer and member of the Kenyan afro-pop band Sauti Sol who became known for their debut album Mwanzo. They have received numerous awards and nominations from the Kisima Music Awards, MTV Europe Music Awards and BET Awards.",
+            "dob": 1986,
+            "dod": "Alive"
+        },
+        {
+            "name": "polycarp Otieno",
+            "image": "https://mdundo.com/media/articles/1534319689_7421_b.jpg",
+            "description": "Polycarp Otieno aka Fancy Fingers is a renowned music producer, composer and 1/4 of celebrated music group Sauti Sol. He is a soulful artist and authentic brand from East Africa with the aim of empowering the African youth with knowledge and cultural appreciation through his music and initiatives.",
+            "dob": 1987,
+            "dod": "Alive"
+        }
+        
     ]
 }

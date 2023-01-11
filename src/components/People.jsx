@@ -6,7 +6,7 @@ const People = (props) => {
 
     const fetchData = async (endpoint) => {
         try {
-            const resp = await fetch(`http://localhost:4000/${endpoint}`);
+            const resp = await fetch(`http://localhost:3000/${endpoint}`);
             const data = await resp.json();
 
             setMembers(data);
