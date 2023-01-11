@@ -1,4 +1,6 @@
 {
+   
+
     "culture": [
         {
             "name": "Kenyatta Hill",
@@ -64,6 +66,36 @@
             "description": "The Honourable Paul Joseph Ngei was a Kenyan politician who was imprisoned for his role in the anti-colonial movement, but who went on to hold several government ministerial positions after Kenya became independent.",
             "dob": 1923,
             "dod": 2004
+        }
+    ],
+    "yamoto-band": [
+        {
+            "name": "Dogo Aslay",
+            "image": "../../public/yamoto-band-photos/aslay.jpg",
+            "description": "Aslay Isihaka Nassoro known by his stage names Aslay, Dogo Aslay and Dingi mtoto is singer from Tanzania and a former lead vocalist for a music band, Yamoto",
+            "dob": 1995,
+            "dod": "still Alive"
+        },
+        {
+            "name": "Maromboso (Mbosso)",
+            "image": "../../public/yamoto-band-photos/mboso.jpg",
+            "description": " Mbwana Yusuf Kilungi, better known by his stage name Mbosso Khan is a Tanzanian singer and songwriter born in Kibiti, Pwani Region, he is currently based in Dar es Salaam and signed under WCB Wasafi record label. Mbosso is known for his songs ; Nadekezwa and Hodari which won Video of the Year at HiPipo Awards 2019",
+            "dob": 1991,
+            "dod": "Alive"
+        },
+        {
+            "name": "Enock Bella",
+            "image": "../../public/yamoto-band-photos/bellah.jpeg",
+            "description": "ENOCK BELLA is a recording artist from Tanzania, former member of the Yamoto Band a group he formed with Dogo Aslay and Beka. ",
+            "dob": 1995,
+            "dod": "Alive"
+        },
+        {
+            "name": "Beka Flavour",
+            "image": "../../public/yamoto-band-photos/beka.jpg",
+            "description": " Bakari Katuti (born 7 Julay 1991), popularly known by his stage name Beka Flavour (or simply Beka), is a Tanzanian Bongo Flava recording artist and dancer from Tanzania",
+            "dob": 1991,
+            "dod": "Alive"
         }
     ]
 }
