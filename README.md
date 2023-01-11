@@ -17,7 +17,8 @@ Then enable json-server :
 Once the necessary installations are successful, a new tab will open on your browser and will display Wakadinali's information.
 
 ### Behind The Scenes
-I updated the db.json file and added the necessary information 
+I updated the db.json file and added the necessary information :
+```jsx
     {
     "wakadinali": [
         {
@@ -43,6 +44,7 @@ I updated the db.json file and added the necessary information
         }
     ],
     }
+    ```
 
 Then in the App.jsx file, I commented out kapenguria-six and culture endpoints and added the wakadinali end point.
 
