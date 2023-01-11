@@ -1,4 +1,27 @@
-{
+{       "kansoul": [
+            {
+            "name": "Mejja Okwonkwo",
+            "image": "https://homekazi.co.ke/public/celebsgallery/mejja_1623434950.jpeg",
+            "description": "Renowned Genge artist Major Nemeye Khadija alias Mejja has explained why he adopted his mother's second name. According to the rapper who was raised in Nyeri's Majengo slums, he's paying homage to his mum for singlehandedly him and his two brothers after their father left.",
+            "dob": "1979",
+            "dod": "N/A"
+        },
+        {
+            "name": "Madtraxx",
+            "image": "https://www.musicinafrica.net/sites/default/files/images/artist_profile/201405/madtraxx1.jpg",
+            "description": "Maddy Madtraxx is a popular artist from Kenya. Popnable collects information about 4 songs by Maddy Madtraxx. The highest Maddy Madtraxx 's charting position is #12 , and the worst ranking place is #294 . Maddy Madtraxx's songs spent 2 weeks in the charts. Maddy Madtraxx appeared in Top Chart that measure the best Kenyan musicians/bands and the highest position noted by Maddy Madtraxx is 12. The worst result is 294.",
+            "dob": "1983",
+            "dod": "N/A"
+        },
+        {
+            "name": "Kid Kora",
+            "image": "https://mdundo.com/media/articles/1614028692_5787_b.jpg",
+            "description": "Kidkora was the least famous of The Kansoul since was mostly involved in behind the scene jobs, since he was a music producer before venturing into singing.",
+            "dob": "1987",
+            "dod": "N/A"
+        }
+
+    ],
     "culture": [
         {
             "name": "Kenyatta Hill",
