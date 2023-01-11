@@ -1,4 +1,52 @@
 {
+    "Limpopo": [
+        {
+            "name": "Sande Asweda",
+            "image": "",
+            "description": " Sande Asweda teamed up with Salim, Makubania and Salapata to quit Limpopo International and form their own band, Extra Limpopo.",
+            "dob": ""
+            
+        },
+        {
+            "name": "Ken Watenya,",
+            "image": "",
+            "description": "",
+            "dob": ""
+            
+        },
+        {
+            "name": "Prince Kassam",
+            "image": "",
+            "description": "",
+            "dob": ""
+           
+        },
+        {
+            "name": " John Junior",
+            "image": "",
+            "description": "John junior( John Odhiambo) a known Kenyan Luo Benga music artist had the love for music at a tender age",
+            "dob": "1988"
+           
+        },
+        {
+            "name": "  Salim Watiechere",
+            "image": "",
+            "description": "",
+            "dob": ""
+           
+        },
+        {
+            "name": " Omondi Tony",
+            "image": "",
+            "description": "MJ and his brother Omondi Tony (Anthony Omondi Mumbo) launched their band, Orchestra Limpopo International",
+            "dob": "1968",
+            "dod": "2011"
+            
+        }
+
+    ],
+
+        
     "culture": [
         {
             "name": "Kenyatta Hill",
