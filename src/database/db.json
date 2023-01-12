@@ -69,41 +69,31 @@
     "camp-mullah":[
         {
             "name": "Kus Ma",
-            "image":[{
-                "link":"../public/images/kus ma.jpg"
-                }],
+            "image":"https://www.google.co.ke/url?sa=i&url=https%3A%2F%2Fallafrica.com%2Fstories%2F201308290358.html&psig=AOvVaw13BLZlvfLbTvX1RAn9Ui3s&ust=1673602979457000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCPDhsI_fwfwCFQAAAAAdAAAAABAD",
             "description":"Kus Ma (born Marcus Kibukosya; formerly K'Cous) Record producer, songwriter, rapper.",
             "dob":1991
         },
         {
             "name": "Shappaman",
-            "image":[{
-                "link":"../public/images/Shappaman+1.jpg"
-                }],
+            "image":"https://www.google.co.ke/url?sa=i&url=https%3A%2F%2Fopen.spotify.com%2Fartist%2F54YYGrYBvUuOwsA2Pd3ktQ&psig=AOvVaw2D4kleWaahZVX1r61gHPdO&ust=1673603047276000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCIC_zK7fwfwCFQAAAAAdAAAAABAD",
             "description":"Shappaman is an all rounded Nairobi born and based artist with core foundations in Hip hop, R&B. The rapper / singer is a former member of Kenyan super group Camp Mulla & as a solo act aims to surpass the past achievements of the group.",
             "dob":1998
         },
         {
             "name": "Miss Karun",
-            "image":[{
-                "link":"../public/images/karun.png"
-                }],
+            "image":"https://www.google.co.ke/url?sa=i&url=https%3A%2F%2Fspinditty.com%2Fgenres%2FThe-Biography-of-Karun-MungaiKenyan-Songstress-and-Former-Camp-Mulla-Member&psig=AOvVaw02uiYnc4htA-aQOPwX_1Bc&ust=1673603094924000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCKDc4cPfwfwCFQAAAAAdAAAAABAD",
             "description":"Karungari Mungai, professionally known as Karun (formerly Miss Karun), is an R&B singer-songwriter from Kenya and former member of the Camp Mullah Band",
             "dob":1994
         },
         {
             "name": "Taio Tripper",
-            "image":[{
-                "link":"../public/images/taio.jpg"
-                }],
+            "image":"https://www.google.co.ke/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fswitchtvkenya%2Fstatus%2F1277945575800025089&psig=AOvVaw0T6Yc-kqiuq-EW1WVZetls&ust=1673603136308000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCMDH4NffwfwCFQAAAAAdAAAAABAD",
             "description":" Known as a deejay, songwriter and sound engineer, Taio now adds show host to the long list of roles he currently holds. Taking to Instagram to share his exciting news, Tripper revealed his latest project dubbed “Prototype.” The show is set to revolve around conversations on growth, failures, and success with various upcoming artists.",
             "dob":""
         },
         {
             "name": "Mykie Tooni",
-            "image":[{
-                "link":"../public/images/mykie.jpg"
-                }],
+            "image":"https://www.google.co.ke/url?sa=i&url=https%3A%2F%2Fbiggestkaka.co.ke%2Fcamp-mulla-founder-mykie-mutooni-launches-studio%2F&psig=AOvVaw3-_Iy1keKMa6wK5Sb69LXf&ust=1673603173720000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCNDEs-_fwfwCFQAAAAAdAAAAABAD",
             "description":"Michael Mutooni popularly known as Mykie Tuchi was the former manager of hip hop group Camp Mulla which took the Kenyan music by storm. They were the cool kids who brought a new and fresh twist to Kenyan hiphop. The group was responsible for hits like Party don't stop, Fresh all day and Feel no pain among others.",
             "dob":""
         }
