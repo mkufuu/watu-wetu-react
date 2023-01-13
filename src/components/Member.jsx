@@ -1,14 +1,13 @@
+import { Link } from "react-router-dom";
 
 const Member = ({ id, dob, dod, type, name, image, founded, description }) => {
     description = description.length > 100
         ? `${(description || '').substring(0, 100)} ...`
         : description;
 
-    const link = type === "individual"
-        ? `/individual/${id}`
-        : `/group/${id}`;
-
-    return <a href={link} style={{ display: "flex", textDecoration: "none" }}>
+    return <Link
+        to={type === "individual" ? `/individuals/${id}` : `/groups/${id}`}
+        style={{ display: "flex", textDecoration: "none" }}>
         <div className="card">
             <div className="rounded-top" style={{
                 height: 240,
@@ -44,7 +43,7 @@ const Member = ({ id, dob, dod, type, name, image, founded, description }) => {
 
             </div>
         </div>
-    </a>;
+    </Link>;
 }
 
 export default Member;

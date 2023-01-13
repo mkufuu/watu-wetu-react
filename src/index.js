@@ -2,9 +2,9 @@ import React from 'react';
 import './styles/index.css';
 import Root from './routes/root';
 import Index from './routes/index';
-// import African from './routes/african';
+import Group from './routes/group';
 import ReactDOM from 'react-dom/client';
-// import Africans from './routes/africans';
+import Individual from './routes/individual';
 import reportWebVitals from './reportWebVitals';
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
@@ -17,14 +17,14 @@ const router = createBrowserRouter([
                 path: '/',
                 element: <Index />
             },
-            // {
-            //     path: '/africans',
-            //     element: <Africans />
-            // },
-            // {
-            //     path: '/africans/:id',
-            //     element: <African />
-            // }
+            {
+                path: '/groups/:groupId',
+                element: <Group />
+            },
+            {
+                path: '/individuals/:individualId',
+                element: <Individual />
+            }
         ]
     },
 ]);
