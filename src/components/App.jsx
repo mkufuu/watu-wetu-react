@@ -12,10 +12,10 @@ const App = () => {
         <main id="app-main">
             <div className="row">
                 <People endpoint="kapenguria-six" />
-                <People endpoint="Micasa"/>
-                <People endpoint="culture" />
+                <People endpoint="micasa" />
                 <People endpoint="sautisol" />
-                <People endpoint="h_art-the-band" />
+                <People endpoint="h-art-the-band" />
+                <People endpoint="culture" />
             </div>
         </main>
     </div>
