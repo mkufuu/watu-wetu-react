@@ -1,10 +1,7 @@
-import '../styles/app.css';
+import People from "../components/People";
 
-import People from './People';
-
-const App = () => {
-
-    return <div className="mt-2 container-fluid">
+const AfricanGiants = () => {
+    return <div className="container-fluid">
         <header id="app-header" className="rounded">
             <h1 id="app-title">Watu Wetu</h1>
         </header>
@@ -19,6 +16,6 @@ const App = () => {
             </div>
         </main>
     </div>
-};
+}
 
-export default App;
+export default AfricanGiants;

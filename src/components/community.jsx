@@ -1,12 +1,12 @@
-import Member from "./Member";
+import Member from "./member";
 import { useState, useEffect } from "react";
 
-const People = (props) => {
+const Community = ({ limit, endpoint }) => {
     const [members, setMembers] = useState([]);
 
     const fetchData = async (endpoint) => {
         try {
-            const resp = await fetch(`http://localhost:4000/${endpoint}`);
+            const resp = await fetch(`http://localhost:4000/${endpoint}?${limit ? `_limit=${limit}` : ''}`);
             const data = await resp.json();
 
             setMembers(data);
@@ -16,8 +16,8 @@ const People = (props) => {
     }
 
     useEffect(() => {
-        fetchData(props.endpoint);
-    }, [props.endpoint]);
+        fetchData(endpoint);
+    }, [endpoint]);
 
     return <div className="row">
         {
@@ -30,4 +30,4 @@ const People = (props) => {
     </div>
 }
 
-export default People;
+export default Community;

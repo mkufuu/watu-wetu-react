@@ -1,14 +1,31 @@
 import React from 'react';
 import './styles/index.css';
-import App from './components/App';
+import Root from './routes/root';
+import Index from './routes/index';
+// import African from './routes/african';
 import ReactDOM from 'react-dom/client';
+// import Africans from './routes/africans';
 import reportWebVitals from './reportWebVitals';
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <App />,
+        element: <Root />,
+        children: [
+            {
+                path: '/',
+                element: <Index />
+            },
+            // {
+            //     path: '/africans',
+            //     element: <Africans />
+            // },
+            // {
+            //     path: '/africans/:id',
+            //     element: <African />
+            // }
+        ]
     },
 ]);
 
