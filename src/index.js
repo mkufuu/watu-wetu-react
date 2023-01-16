@@ -4,8 +4,9 @@ import Root from './routes/root';
 import Index from './routes/index';
 import Group from './routes/group';
 import ReactDOM from 'react-dom/client';
-import Individual from './routes/individual';
 import reportWebVitals from './reportWebVitals';
+import Individual from './routes/individual/index';
+import IndividualForm from './routes/individual/form';
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
 const router = createBrowserRouter([
@@ -24,6 +25,11 @@ const router = createBrowserRouter([
             {
                 path: '/individuals/:individualId',
                 element: <Individual />
+            },
+            {
+                // TODO: Fetch the user when they belong to a group, this logic only work for individuals line No. 31
+                path: '/individuals/:individualId/edit',
+                element: <IndividualForm />
             }
         ]
     },

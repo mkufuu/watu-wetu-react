@@ -1,77 +1,77 @@
 {
-    "africans": [
+  "africans": [
+    {
+      "id": 1,
+      "founded": "",
+      "type": "group",
+      "name": "Kapenguria Six",
+      "image": "/images/kapenguria-six/group-photo.jpg",
+      "description": "When the British colonialist under then Governor Sir Evelyn Baring, declared a state of emergency on October 20, 1952 and arrested six political activists, they were taken to Kapenguria in northwestern Kenya because it was the most secure place where it was thought the Mau Mau could not break them out. \n Kapenguria, in the current West Pokot County, 412km northwest of Nairobi, was also considered remote as it was far removed from the other populated regions of the country. It also lacked amenities such as telephone and postal service, railway, hotels and the only road leading there was almost nonexistent. In addition, Kapengiruia was a 'closed' area and any one going in and out had to get a government pass, at a time when getting an “African Pass” to enter any town was difficult. The six detainee; Jomo Kenyatta, Bildad Kagia, Ramogi Achieng Onek, Paul Ngei, Fred Kubai and Kungu Karumba, were on trial for six months, from December 1952 to April 1953, found guilty and sentenced to seven years imprisonment with hard labour. \n Their crime was that, between October 12, 1950 and October 20,1952, they assisted the management of unlawful society (Mau Mau) and conspired together and with persons not before the court to commit felony by physical force or by threat or intimidation to compel persons in the Kenya colony to take an oath to bind the persons to act in a certain way.",
+      "members": [
         {
-            "id": 1,
-            "founded": "",
-            "type": "group",
-            "name": "Kapenguria Six",
-            "image": "/images/kapenguria-six/group-photo.jpg",
-            "description": "When the British colonialist under then Governor Sir Evelyn Baring, declared a state of emergency on October 20, 1952 and arrested six political activists, they were taken to Kapenguria in northwestern Kenya because it was the most secure place where it was thought the Mau Mau could not break them out. \n Kapenguria, in the current West Pokot County, 412km northwest of Nairobi, was also considered remote as it was far removed from the other populated regions of the country. It also lacked amenities such as telephone and postal service, railway, hotels and the only road leading there was almost nonexistent. In addition, Kapengiruia was a 'closed' area and any one going in and out had to get a government pass, at a time when getting an “African Pass” to enter any town was difficult. The six detainee; Jomo Kenyatta, Bildad Kagia, Ramogi Achieng Onek, Paul Ngei, Fred Kubai and Kungu Karumba, were on trial for six months, from December 1952 to April 1953, found guilty and sentenced to seven years imprisonment with hard labour. \n Their crime was that, between October 12, 1950 and October 20,1952, they assisted the management of unlawful society (Mau Mau) and conspired together and with persons not before the court to commit felony by physical force or by threat or intimidation to compel persons in the Kenya colony to take an oath to bind the persons to act in a certain way.",
-            "members": [
-                {
-                    "id": "1",
-                    "type": "individual",
-                    "name": "Kung'u Karumba",
-                    "image": "/images/kapenguria-six/kungu-karumba.jpg",
-                    "description": "Kung'u Karumba was a Kenyan nationalist and freedom-fighter. He was a member of the Kapenguria Six, along with Bildad Kaggia, Jomo Kenyatta, Fred Kubai, Paul Ngei, and Achieng Oneko.",
-                    "dob": 1902,
-                    "dod": 1978
-                },
-                {
-                    "id": "2",
-                    "type": "individual",
-                    "name": "Achieng' Oneko",
-                    "image": "/images/kapenguria-six/achieng-oneko.jpg",
-                    "description": "Ramogi Achieng Oneko was a Kenyan freedom fighter and a politician. In Kenya, he is considered as a national hero. He was born in Tieng'a village in Uyoma sub-location in Bondo District in 1920 and educated at Maseno School.",
-                    "dob": 1920,
-                    "dod": 2007
-                },
-                {
-                    "id": "3",
-                    "type": "individual",
-                    "name": "Jomo Kenyatta",
-                    "image": "/images/kapenguria-six/jomo-kenyatta.jpg",
-                    "description": "Kenyatta was born as Kamau, son of Ngengi, at Ichaweri, southwest of Mount Kenya in the East African highlands. His father was a leader of a small Kikuyu agricultural settlement. About age 10 Kamau became seriously ill with jigger infections in his feet and one leg, and he underwent successful surgery at a newly established Church of Scotland mission.",
-                    "dob": 1897,
-                    "dod": 1978
-                },
-                {
-                    "id": "4",
-                    "type": "individual",
-                    "name": "Bildad Kaggia",
-                    "image": "/images/kapenguria-six/bildad-kaggia.jpg",
-                    "description": "Bildad Mwaganu Kaggia was a Kenyan nationalist, activist, and politician. Kaggia was a member of the Mau Mau Central Committee. After independence he became a Member of Parliament. He established himself as a militant, fiery nationalist who wanted to serve the poor and landless people",
-                    "dob": 1921,
-                    "dod": 2005
-                },
-                {
-                    "id": "5",
-                    "type": "individual",
-                    "name": "Fred Kubai",
-                    "image": "/images/kapenguria-six/fred-kubai.jpg",
-                    "description": "Fred Kubai was one of the Kapenguria Six, members of the Kenya African Union arrested in 1952, tried and imprisoned. He was a Kikuyu, and a leader of the Kenya Transport Workers Union and the East African Trade Union Congress. Kubai organized attacks against the European government in Nairobi.",
-                    "dob": 1917,
-                    "dod": 1996
-                },
-                {
-                    "id": "6",
-                    "type": "individual",
-                    "name": "Paul Ngei",
-                    "image": "/images/kapenguria-six/paul-ngei.jpg",
-                    "description": "The Honourable Paul Joseph Ngei was a Kenyan politician who was imprisoned for his role in the anti-colonial movement, but who went on to hold several government ministerial positions after Kenya became independent.",
-                    "dob": 1923,
-                    "dod": 2004
-                }
-            ]
+          "id": "1",
+          "type": "individual",
+          "name": "Kung'u Karumba",
+          "image": "/images/kapenguria-six/kungu-karumba.jpg",
+          "description": "Kung'u Karumba was a Kenyan nationalist and freedom-fighter. He was a member of the Kapenguria Six, along with Bildad Kaggia, Jomo Kenyatta, Fred Kubai, Paul Ngei, and Achieng Oneko.",
+          "dob": 1902,
+          "dod": 1978
         },
         {
-            "id": 2,
-            "dob": "18-07-1918",
-            "dod": "05-12-2013",
-            "type": "individual",
-            "name": "Nelson Madela",
-            "image": "/images/nelson-mandela.jpg",
-            "description": "Nelson Rolihlahla Mandela was a South African anti-apartheid activist who served as the first president of South Africa from 1994 to 1999. He was the country's first black head of state and the first elected in a fully representative democratic election. His government focused on dismantling the legacy of apartheid by fostering racial reconciliation. Ideologically an African nationalist and socialist, he served as the president of the African National Congress (ANC) party from 1991 to 1997."
+          "id": "2",
+          "type": "individual",
+          "name": "Achieng' Oneko",
+          "image": "/images/kapenguria-six/achieng-oneko.jpg",
+          "description": "Ramogi Achieng Oneko was a Kenyan freedom fighter and a politician. In Kenya, he is considered as a national hero. He was born in Tieng'a village in Uyoma sub-location in Bondo District in 1920 and educated at Maseno School.",
+          "dob": 1920,
+          "dod": 2007
+        },
+        {
+          "id": "3",
+          "type": "individual",
+          "name": "Jomo Kenyatta",
+          "image": "/images/kapenguria-six/jomo-kenyatta.jpg",
+          "description": "Kenyatta was born as Kamau, son of Ngengi, at Ichaweri, southwest of Mount Kenya in the East African highlands. His father was a leader of a small Kikuyu agricultural settlement. About age 10 Kamau became seriously ill with jigger infections in his feet and one leg, and he underwent successful surgery at a newly established Church of Scotland mission.",
+          "dob": 1897,
+          "dod": 1978
+        },
+        {
+          "id": "4",
+          "type": "individual",
+          "name": "Bildad Kaggia",
+          "image": "/images/kapenguria-six/bildad-kaggia.jpg",
+          "description": "Bildad Mwaganu Kaggia was a Kenyan nationalist, activist, and politician. Kaggia was a member of the Mau Mau Central Committee. After independence he became a Member of Parliament. He established himself as a militant, fiery nationalist who wanted to serve the poor and landless people",
+          "dob": 1921,
+          "dod": 2005
+        },
+        {
+          "id": "5",
+          "type": "individual",
+          "name": "Fred Kubai",
+          "image": "/images/kapenguria-six/fred-kubai.jpg",
+          "description": "Fred Kubai was one of the Kapenguria Six, members of the Kenya African Union arrested in 1952, tried and imprisoned. He was a Kikuyu, and a leader of the Kenya Transport Workers Union and the East African Trade Union Congress. Kubai organized attacks against the European government in Nairobi.",
+          "dob": 1917,
+          "dod": 1996
+        },
+        {
+          "id": "6",
+          "type": "individual",
+          "name": "Paul Ngei",
+          "image": "/images/kapenguria-six/paul-ngei.jpg",
+          "description": "The Honourable Paul Joseph Ngei was a Kenyan politician who was imprisoned for his role in the anti-colonial movement, but who went on to hold several government ministerial positions after Kenya became independent.",
+          "dob": 1923,
+          "dod": 2004
         }
-    ]
+      ]
+    },
+    {
+      "id": 2,
+      "dob": "1918-07-18",
+      "dod": "2013-12-05",
+      "type": "individual",
+      "name": "Ex. Nelson Rolihlahla Madela",
+      "image": "/images/nelson-mandela.jpg",
+      "description": "Nelson Rolihlahla Mandela was a South African anti-apartheid activist who served as the first president of South Africa from 1994 to 1999. He was the country's first black head of state and the first elected in a fully representative democratic election. His government focused on dismantling the legacy of apartheid by fostering racial reconciliation. Ideologically an African nationalist and socialist, he served as the president of the African National Congress (ANC) party from 1991 to 1997.\n\nMandela served 27 years in prison, split between Robben Island, Pollsmoor Prison and Victor Verster Prison. Amid growing domestic and international pressure and fears of racial civil war, President F. W. de Klerk released him in 1990. Mandela and de Klerk led efforts to negotiate an end to apartheid, which resulted in the 1994 multiracial general election in which Mandela led the ANC to victory and became president. Leading a broad coalition government which promulgated a new constitution, Mandela emphasised reconciliation between the country's racial groups and created the Truth and Reconciliation Commission to investigate past human rights abuses. Economically, his administration retained its predecessor's liberal framework despite his own socialist beliefs, also introducing measures to encourage land reform, combat poverty and expand healthcare services. Internationally, Mandela acted as mediator in the Pan Am Flight 103 bombing trial and served as secretary-general of the Non-Aligned Movement from 1998 to 1999. He declined a second presidential term and was succeeded by his deputy, Thabo Mbeki. Mandela became an elder statesman and focused on combating poverty and HIV/AIDS through the charitable Nelson Mandela Foundation."
+    }
+  ]
 }
