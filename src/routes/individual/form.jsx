@@ -9,7 +9,7 @@ const IndividualForm = () => {
 
     useEffect(() => {
         // fetch the user & pre-fill the form so that the user does not have to write from scratch
-        fetch(`http://localhost:4000/africans/${individualId}`)
+        fetch(`http://localhost:4000/africans/${groupId}/members/${individualId}`)
             .then((resp) => resp.json())
             .then((data) => setFormData(data));
     }, [individualId]);
