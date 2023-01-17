@@ -31,7 +31,6 @@ const router = createBrowserRouter([
                 element: <Individual />
             },
             {
-                // TODO: Fetch the user when they belong to a group, this logic only work for individuals line No. 31
                 path: '/individuals/:individualId/edit',
                 element: <IndividualForm />
             }
