@@ -1,4 +1,4 @@
-import Member from "../components/member";
+import Member from "../components/Member";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
