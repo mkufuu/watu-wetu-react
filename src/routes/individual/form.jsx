@@ -3,7 +3,20 @@ import { redirect, useParams } from "react-router-dom";
 
 const IndividualForm = () => {
     // TODO: Fetch the user when they belong to a group, this logic only work for individuals
+    
     const { individualId } = useParams();
+
+    const {id} = useParams ();
+
+    useEffect(()=>{
+      fetch ('http://localhost:4000/africans')
+      .then((resp)=> (resp.json()))
+      .then(data=> (data))
+
+    },[id]);
+
+    const { africans: [{ members }] } = data;
+const selectedMembers = members.filter(member => member.id === id);
 
     const [formData, setFormData] = useState({});
 
