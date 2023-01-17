@@ -1,4 +1,4 @@
-import Member from "./member";
+import Member from "./Member";
 import { useState, useEffect } from "react";
 
 const Community = ({ limit, endpoint }) => {
