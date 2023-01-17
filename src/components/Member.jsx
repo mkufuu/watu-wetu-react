@@ -1,13 +1,17 @@
 import { Link } from "react-router-dom";
 
-const Member = ({ id, dob, dod, type, name, image, founded, description }) => {
+const Member = ({ id, dob, dod, type, name, image, groupId, founded, description }) => {
     description = description.length > 100
         ? `${(description || '').substring(0, 100)} ...`
         : description;
 
-    return <Link
-        to={type === "individual" ? `/individuals/${id}` : `/groups/${id}`}
-        style={{ display: "flex", textDecoration: "none" }}>
+    const href = type === "individual"
+        ? groupId
+            ? `/groups/${groupId}/individuals/${id}`
+            : `/individuals/${id}`
+        : `/groups/${id}`;
+
+    return <Link to={href} style={{ display: "flex", textDecoration: "none" }}>
         <div className="card">
             <div className="rounded-top" style={{
                 height: 240,

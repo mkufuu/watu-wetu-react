@@ -23,6 +23,10 @@ const router = createBrowserRouter([
                 element: <Group />
             },
             {
+                path: '/groups/:groupId/individuals/:individualId',
+                element: <Individual />
+            },
+            {
                 path: '/individuals/:individualId',
                 element: <Individual />
             },
