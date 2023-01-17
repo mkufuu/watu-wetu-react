@@ -4,14 +4,11 @@ import { redirect, useParams } from "react-router-dom";
 const IndividualForm = () => {
     // TODO: Fetch the user when they belong to a group, this logic only work for individuals
     const { individualId } = useParams();
-    const {Id} = useParams();
-
-    const { africans: [{ members }] } = data;
-const selectedMembers = members.filter(member => member.Id === Id);
+    const {individuals} = useParams;
 
     const [formData, setFormData] = useState({});
-    
-
+    const [individual, setIndividual] = useState([]);
+     
     useEffect(() => {
         // fetch the user & pre-fill the form so that the user does not have to write from scratch
         fetch(`http://localhost:4000/africans/${individualId}`)
@@ -19,12 +16,19 @@ const selectedMembers = members.filter(member => member.Id === Id);
             .then((data) => setFormData(data));
     }, [individualId]);
 
-     useEffect(()=>{
-        fetch ('http://localhost:4000/africans')
-        .then((resp)=> (resp.json()))
-        .then(data=> (data))
   
-      },[Id]);
+    
+  useEffect(() => {
+    fetch('http://localhost:4000/africans/${individuals}')
+      .then(res => res.json())
+      .then(data => {
+          const filteredIndividuals = data.filter(individual => individual.isActive);
+          setIndividual(filteredIndividuals);
+      })
+      .catch(error => {
+        console.log(error);
+      });
+  }, []);
 
     const handleFormSubmission = (event) => {
         event.preventDefault();
@@ -42,7 +46,7 @@ const selectedMembers = members.filter(member => member.Id === Id);
             .then((status) => {
                 // TODO: Redirect to the user page
                 if (status === 200) return redirect(`/individuals/${individualId}`);
-                else if(status !==200) return redirect ('/Id')
+                else if(status !==200) return redirect ('/individuals')
             });
     }
 
