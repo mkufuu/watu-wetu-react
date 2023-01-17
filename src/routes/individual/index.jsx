@@ -2,15 +2,30 @@ import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 
 const Individual = () => {
-    const { individualId } = useParams();
     const [data, setData] = useState(null);
+    const { groupId, individualId } = useParams();
 
     useEffect(() => {
-        fetch(`http://localhost:4000/africans/${individualId}`)
-            .then((resp) => resp.json())
-            .then((data) => setData(data))
-            .catch((error) => setData(null));
-    }, [individualId]);
+        if (groupId && individualId) {
+            fetch(`http://localhost:4000/africans/${groupId}`)
+                .then((resp) => resp.json())
+                .then((data) => {
+                    const member = (data?.members || []).find((individual) => {
+                        return individual.id == individualId;
+                    });
+
+                    setData(member);
+                })
+                .catch((error) => setData(null));
+        }
+
+        if (!groupId && individualId) {
+            fetch(`http://localhost:4000/africans/${individualId}`)
+                .then((resp) => resp.json())
+                .then((data) => setData(data))
+                .catch((error) => setData(null));
+        }
+    }, [groupId, individualId]);
 
     return <div className="container-fluid">
         <header className="d-flex justify-content-center">
