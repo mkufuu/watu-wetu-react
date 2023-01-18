@@ -3,7 +3,7 @@ import { redirect, useParams } from "react-router-dom";
 
 const IndividualForm = () => {
     // TODO: Fetch the user when they belong to a group, this logic only work for individuals
-    const { individualId } = useParams();
+    const { individualId,groupId, individuals} = useParams();
 
     const [formData, setFormData] = useState({});
 
@@ -14,6 +14,12 @@ const IndividualForm = () => {
             .then((data) => setFormData(data));
     }, [individualId]);
 
+    useEffect(() =>{
+         fetch(`http://localhost:4000/africans/${groupId}/individuals/`)
+            .then((resp) => resp.json())
+            .then((data) => setFormData(data));
+
+    },[individuals])
     const handleFormSubmission = (event) => {
         event.preventDefault();
 
@@ -30,6 +36,7 @@ const IndividualForm = () => {
             .then((status) => {
                 // TODO: Redirect to the user page
                 if (status === 200) return redirect(`/individuals/${individualId}`);
+                else if (status !==200) return redirect(`/individuals/`)
             });
     }
 

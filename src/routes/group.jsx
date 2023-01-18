@@ -1,6 +1,6 @@
-import Member from "../components/member";
+import Member from "../components/Member";
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 const Group = () => {
     const { groupId } = useParams();
@@ -22,7 +22,7 @@ const Group = () => {
             <h1>
                 {data?.name || 'Not Available'}
             </h1>
-
+    
             <p className="mt-2 lead">
                 {data?.description || 'No description available'}
             </p>
