@@ -21,7 +21,7 @@ const Index = () => {
 
         <main id="app-main">
             <div className="row">
-                <Community endpoint="africans" limit={10} />
+                <Community endpoint="/b/63c8de6c15ab31599e3a4c43" limit={10} />
             </div>
         </main>
     </div>
